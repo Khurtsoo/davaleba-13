@@ -2,3 +2,10 @@
     display: flex;
     justify-content: space-between;
 }
+@mixin tags-90 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: -100px;
+    margin-left: 200px;
+}

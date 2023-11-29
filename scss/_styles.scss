@@ -75,11 +75,7 @@ nav {
     width: 350px;
 }
 .parent {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    margin-top: -100px;
-    margin-left: 200px;
+   @include tags-90 ;
 }
 
 
@@ -100,15 +96,7 @@ nav {
        top: 230px;
        left: 320px;
     }
-   .left-side {
-       margin-left: -40px;
-   }
-   .right-side {
-       flex-wrap: wrap;
-       gap: 19px;
-       align-content: space-around;
-       justify-content: flex-end;
-   }
+   
 }
 
 @media (max-width: 768px) {
