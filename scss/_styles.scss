@@ -84,17 +84,89 @@ nav {
 
 
 @media (max-width: 1024px) {
-    nav {
-        width: 300px;
+    .tag-1 {
+       width: 900px;
+       
+    }
+    .photo-2 {
+       width: 900px;
+       
+    }
+    .text-1 {
+       top: 150px;
+       left: 250px;
+    }
+    .text-2 {
+       top: 230px;
+       left: 320px;
+    }
+   .left-side {
+       margin-left: -40px;
+   }
+   .right-side {
+       flex-wrap: wrap;
+       gap: 19px;
+       align-content: space-around;
+       justify-content: flex-end;
+   }
+}
+
+@media (max-width: 768px) {
+    
+    body {
+        width: 100%;
+    }
+    .tag-1 {
+        width: 600px;
+    }
+    .photo-2 {
+        width: 670px;
+    }
+
+    .text-1 {
+        font-size: 25px;
+    }
+    .text-2 {
+        position: absolute;
+        left: 250px;
+    }
+    .parent {
+        width: 400px;
     }
     
+}
+ 
+@media (max-width: 480px) {
+    .photo-1 {
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+    a { 
+        margin-right: 15px;
+    }
+    .photo-2 {
+        width: 400px;
+    }
+    .text-1 {
+        font-size: 25px;
+        left: 130px;
+    }
+    .text-2 {
+        font-size: 15px;
+        left: 100px;
+        top: 200px;
+    }
+    .tag-1 {
+        width: 400px;
+        
+    }
 
-    
+    .parent {
+        margin-top: 0px;
+        margin-left: 1px;
+    }
 
-
-   }
-
-
+}
 
 
 
