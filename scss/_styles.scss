@@ -1,0 +1,85 @@
+header {
+ @include something;
+}
+nav {
+   @include something;
+    width: 500px;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.photo-1 {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.photo-2 {
+    position: relative;
+    width: 1580px;
+}
+.text-1 {
+    position: absolute;
+    top: 238px;
+    left: 407px;
+   font-size: 70px;
+   @extend %main-styles;
+}
+.text-2 {
+    position: absolute;
+    top: 360px;
+    left: 553px;
+    font-size: 19px;
+    @extend %main-styles;
+}
+.tag-1 {
+    
+    width: 1580px;
+    margin-top: 30px;
+}
+
+.tag-2 {
+    color:#636060;
+    width: 89px;
+    height: 20px;
+    font-size: 17px;
+}
+.tag-3 {
+    color: #010101;
+    width: 214px;
+    height: 32px;
+    font-size: 28px;
+}
+.tag-4 {
+    color: #636060;
+    width: 235px;
+    height: 115px;
+}
+.tag-5 {
+    width: 200px;
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.thing-1 {
+    color: #343232;
+    font-size: 19px;
+    margin-top: 40px;
+}
+.thing-2 {
+   color: #636060;
+   font-size: 18px;
+   margin-bottom: 30px;
+   margin-top: 15px;
+}
+.tag-6 {
+    width: 350px;
+}
+.parent {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: -100px;
+    margin-left: 200px;
+}
+
+
